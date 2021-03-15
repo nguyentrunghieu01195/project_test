@@ -1,0 +1,20 @@
+/**
+ * @description 
+ * @since Friday, 3 5th 2021, 17:27:30 pm
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+.option-color-task {
+	float: left;
+}
+
+.checked-color {
+	color: #fff;
+	top: 5px;
+	left: 10px;
+	position: relative;
+}

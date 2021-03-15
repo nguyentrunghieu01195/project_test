@@ -1,0 +1,33 @@
+/**
+ * @description 
+ * @since Monday, 3 1st 2021, 16:16:35 pm
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+ .shadow3 {
+	box-shadow: 4px 4px 10px 3px #e4d7d7;
+}
+
+.alert-icon {
+	border-radius: 100%;
+	width: 36px;
+	height: 36px;
+	color: #FFF;
+}
+
+.alert-icon i {
+	padding: 10px;
+}
+
+.color-span {
+	color: #808080 !important;
+}
+
+.alert-light{
+	border-left: 10px solid #fff;
+	border-left-width: 10px !important;
+}

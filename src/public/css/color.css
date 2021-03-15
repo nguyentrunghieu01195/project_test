@@ -1,0 +1,1029 @@
+/**
+ * @description 
+ * @since Monday, 3 8th 2021, 9:07:30 am
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+.color-picker-df-bg-1 {
+	background: #3a87ad !important
+}
+
+.color-picker-df-bg-2 {
+	background: #1c5181 !important
+}
+
+.color-picker-df-bg-3 {
+	background: #dd0000 !important
+}
+
+.color-picker-df-bg-4 {
+	background: #f68e42 !important
+}
+
+.color-picker-df-bg-5 {
+	background: #3c3c3c !important
+}
+
+.color-picker-df-bg-6 {
+	background: #008449 !important
+}
+
+.color-picker-df-fi-1 {
+	fill: #3a87ad !important
+}
+
+.color-picker-df-fi-2 {
+	fill: #1c5181 !important
+}
+
+.color-picker-df-fi-3 {
+	fill: #dd0000 !important
+}
+
+.color-picker-df-fi-4 {
+	fill: #f68e42 !important
+}
+
+.color-picker-df-fi-5 {
+	fill: #3c3c3c !important
+}
+
+.color-picker-df-fi-6 {
+	fill: #008449 !important
+}
+
+.color-picker-df-cl-1:before {
+	background: #3a87ad !important
+}
+
+.color-picker-df-cl-2:before {
+	background: #1c5181 !important
+}
+
+.color-picker-df-cl-3:before {
+	background: #dd0000 !important
+}
+
+.color-picker-df-cl-4:before {
+	background: #f68e42 !important
+}
+
+.color-picker-df-cl-5:before {
+	background: #3c3c3c !important
+}
+
+.color-picker-df-cl-6:before {
+	background: #008449 !important
+}
+
+.color-picker-bg-1 {
+	background: #000000 !important
+}
+
+.color-picker-bg-2 {
+	background: #424242 !important
+}
+
+.color-picker-bg-3 {
+	background: #636363 !important
+}
+
+.color-picker-bg-4 {
+	background: #9C9C94 !important
+}
+
+.color-picker-bg-5 {
+	background: #CEC6CE !important
+}
+
+.color-picker-bg-6 {
+	background: #EFEFEF !important
+}
+
+.color-picker-bg-7 {
+	background: #F7F7F7 !important
+}
+
+.color-picker-bg-8 {
+	background: #FFFFFF !important
+}
+
+.color-picker-bg-9 {
+	background: #FF0000 !important
+}
+
+.color-picker-bg-10 {
+	background: #FF9C00 !important
+}
+
+.color-picker-bg-11 {
+	background: #FFFF00 !important
+}
+
+.color-picker-bg-12 {
+	background: #00FF00 !important
+}
+
+.color-picker-bg-13 {
+	background: #00FFFF !important
+}
+
+.color-picker-bg-14 {
+	background: #0000FF !important
+}
+
+.color-picker-bg-15 {
+	background: #9C00FF !important
+}
+
+.color-picker-bg-16 {
+	background: #FF00FF !important
+}
+
+.color-picker-bg-17 {
+	background: #F7C6CE !important
+}
+
+.color-picker-bg-18 {
+	background: #FFE7CE !important
+}
+
+.color-picker-bg-19 {
+	background: #FFEFC6 !important
+}
+
+.color-picker-bg-20 {
+	background: #D6EFD6 !important
+}
+
+.color-picker-bg-21 {
+	background: #CEDEE7 !important
+}
+
+.color-picker-bg-22 {
+	background: #CEE7F7 !important
+}
+
+.color-picker-bg-23 {
+	background: #D6D6E7 !important
+}
+
+.color-picker-bg-24 {
+	background: #E7D6DE !important
+}
+
+.color-picker-bg-25 {
+	background: #E79C9C !important
+}
+
+.color-picker-bg-26 {
+	background: #FFC69C !important
+}
+
+.color-picker-bg-27 {
+	background: #FFE79C !important
+}
+
+.color-picker-bg-28 {
+	background: #B5D6A5 !important
+}
+
+.color-picker-bg-29 {
+	background: #A5C6CE !important
+}
+
+.color-picker-bg-30 {
+	background: #9CC6EF !important
+}
+
+.color-picker-bg-31 {
+	background: #B5A5D6 !important
+}
+
+.color-picker-bg-32 {
+	background: #D6A5BD !important
+}
+
+.color-picker-bg-33 {
+	background: #E76363 !important
+}
+
+.color-picker-bg-34 {
+	background: #F7AD6B !important
+}
+
+.color-picker-bg-35 {
+	background: #FFD663 !important
+}
+
+.color-picker-bg-36 {
+	background: #94BD7B !important
+}
+
+.color-picker-bg-37 {
+	background: #73A5AD !important
+}
+
+.color-picker-bg-38 {
+	background: #6BADDE !important
+}
+
+.color-picker-bg-39 {
+	background: #8C7BC6 !important
+}
+
+.color-picker-bg-40 {
+	background: #C67BA5 !important
+}
+
+.color-picker-bg-41 {
+	background: #CE0000 !important
+}
+
+.color-picker-bg-42 {
+	background: #E79439 !important
+}
+
+.color-picker-bg-43 {
+	background: #EFC631 !important
+}
+
+.color-picker-bg-44 {
+	background: #6BA54A !important
+}
+
+.color-picker-bg-45 {
+	background: #4A7B8C !important
+}
+
+.color-picker-bg-46 {
+	background: #3984C6 !important
+}
+
+.color-picker-bg-47 {
+	background: #634AA5 !important
+}
+
+.color-picker-bg-48 {
+	background: #A54A7B !important
+}
+
+.color-picker-bg-49 {
+	background: #9C0000 !important
+}
+
+.color-picker-bg-50 {
+	background: #B56308 !important
+}
+
+.color-picker-bg-51 {
+	background: #BD9400 !important
+}
+
+.color-picker-bg-52 {
+	background: #397B21 !important
+}
+
+.color-picker-bg-53 {
+	background: #104A5A !important
+}
+
+.color-picker-bg-54 {
+	background: #085294 !important
+}
+
+.color-picker-bg-55 {
+	background: #311873 !important
+}
+
+.color-picker-bg-56 {
+	background: #731842 !important
+}
+
+.color-picker-bg-57 {
+	background: #630000 !important
+}
+
+.color-picker-bg-58 {
+	background: #7B3900 !important
+}
+
+.color-picker-bg-59 {
+	background: #846300 !important
+}
+
+.color-picker-bg-60 {
+	background: #295218 !important
+}
+
+.color-picker-bg-61 {
+	background: #083139 !important
+}
+
+.color-picker-bg-62 {
+	background: #003163 !important
+}
+
+.color-picker-bg-63 {
+	background: #21104A !important
+}
+
+.color-picker-bg-64 {
+	background: #3ACCE1 !important
+}
+
+.color-picker-bg-65 {
+	background: #0CAFD2 !important
+}
+
+.color-picker-bg-66 {
+	background: #10519F !important
+}
+
+.color-picker-bg-67 {
+	background: #002F6C !important
+}
+
+.color-picker-bg-68 {
+	background: #F58233 !important
+}
+
+.color-picker-bg-69 {
+	background: #EF5316 !important
+}
+
+.color-picker-bg-70 {
+	background: #E84459 !important
+}
+
+.color-picker-bg-71 {
+	background: #BE2E2E !important
+}
+
+.color-picker-bg-72 {
+	background: #E9AF0F !important
+}
+
+.color-picker-bg-73 {
+	background: #FFCC00 !important
+}
+
+.color-picker-bg-74 {
+	background: #2C7A30 !important
+}
+
+.color-picker-bg-75 {
+	background: #01BB0C !important
+}
+
+.color-picker-bg-76 {
+	background: #C9C9C9 !important
+}
+
+.color-picker-bg-77 {
+	background: #4D4F5C !important
+}
+
+.color-picker-bg-78 {
+	background: #5756CE !important
+}
+
+.color-picker-bg-79 {
+	background: #132F53 !important
+}
+
+.color-picker-fi-1 {
+	fill: #000000 !important
+}
+
+.color-picker-fi-2 {
+	fill: #424242 !important
+}
+
+.color-picker-fi-3 {
+	fill: #636363 !important
+}
+
+.color-picker-fi-4 {
+	fill: #9C9C94 !important
+}
+
+.color-picker-fi-5 {
+	fill: #CEC6CE !important
+}
+
+.color-picker-fi-6 {
+	fill: #EFEFEF !important
+}
+
+.color-picker-fi-7 {
+	fill: #F7F7F7 !important
+}
+
+.color-picker-fi-8 {
+	fill: #FFFFFF !important
+}
+
+.color-picker-fi-9 {
+	fill: #FF0000 !important
+}
+
+.color-picker-fi-10 {
+	fill: #FF9C00 !important
+}
+
+.color-picker-fi-11 {
+	fill: #FFFF00 !important
+}
+
+.color-picker-fi-12 {
+	fill: #00FF00 !important
+}
+
+.color-picker-fi-13 {
+	fill: #00FFFF !important
+}
+
+.color-picker-fi-14 {
+	fill: #0000FF !important
+}
+
+.color-picker-fi-15 {
+	fill: #9C00FF !important
+}
+
+.color-picker-fi-16 {
+	fill: #FF00FF !important
+}
+
+.color-picker-fi-17 {
+	fill: #F7C6CE !important
+}
+
+.color-picker-fi-18 {
+	fill: #FFE7CE !important
+}
+
+.color-picker-fi-19 {
+	fill: #FFEFC6 !important
+}
+
+.color-picker-fi-20 {
+	fill: #D6EFD6 !important
+}
+
+.color-picker-fi-21 {
+	fill: #CEDEE7 !important
+}
+
+.color-picker-fi-22 {
+	fill: #CEE7F7 !important
+}
+
+.color-picker-fi-23 {
+	fill: #D6D6E7 !important
+}
+
+.color-picker-fi-24 {
+	fill: #E7D6DE !important
+}
+
+.color-picker-fi-25 {
+	fill: #E79C9C !important
+}
+
+.color-picker-fi-26 {
+	fill: #FFC69C !important
+}
+
+.color-picker-fi-27 {
+	fill: #FFE79C !important
+}
+
+.color-picker-fi-28 {
+	fill: #B5D6A5 !important
+}
+
+.color-picker-fi-29 {
+	fill: #A5C6CE !important
+}
+
+.color-picker-fi-30 {
+	fill: #9CC6EF !important
+}
+
+.color-picker-fi-31 {
+	fill: #B5A5D6 !important
+}
+
+.color-picker-fi-32 {
+	fill: #D6A5BD !important
+}
+
+.color-picker-fi-33 {
+	fill: #E76363 !important
+}
+
+.color-picker-fi-34 {
+	fill: #F7AD6B !important
+}
+
+.color-picker-fi-35 {
+	fill: #FFD663 !important
+}
+
+.color-picker-fi-36 {
+	fill: #94BD7B !important
+}
+
+.color-picker-fi-37 {
+	fill: #73A5AD !important
+}
+
+.color-picker-fi-38 {
+	fill: #6BADDE !important
+}
+
+.color-picker-fi-39 {
+	fill: #8C7BC6 !important
+}
+
+.color-picker-fi-40 {
+	fill: #C67BA5 !important
+}
+
+.color-picker-fi-41 {
+	fill: #CE0000 !important
+}
+
+.color-picker-fi-42 {
+	fill: #E79439 !important
+}
+
+.color-picker-fi-43 {
+	fill: #EFC631 !important
+}
+
+.color-picker-fi-44 {
+	fill: #6BA54A !important
+}
+
+.color-picker-fi-45 {
+	fill: #4A7B8C !important
+}
+
+.color-picker-fi-46 {
+	fill: #3984C6 !important
+}
+
+.color-picker-fi-47 {
+	fill: #634AA5 !important
+}
+
+.color-picker-fi-48 {
+	fill: #A54A7B !important
+}
+
+.color-picker-fi-49 {
+	fill: #9C0000 !important
+}
+
+.color-picker-fi-50 {
+	fill: #B56308 !important
+}
+
+.color-picker-fi-51 {
+	fill: #BD9400 !important
+}
+
+.color-picker-fi-52 {
+	fill: #397B21 !important
+}
+
+.color-picker-fi-53 {
+	fill: #104A5A !important
+}
+
+.color-picker-fi-54 {
+	fill: #085294 !important
+}
+
+.color-picker-fi-55 {
+	fill: #311873 !important
+}
+
+.color-picker-fi-56 {
+	fill: #731842 !important
+}
+
+.color-picker-fi-57 {
+	fill: #630000 !important
+}
+
+.color-picker-fi-58 {
+	fill: #7B3900 !important
+}
+
+.color-picker-fi-59 {
+	fill: #846300 !important
+}
+
+.color-picker-fi-60 {
+	fill: #295218 !important
+}
+
+.color-picker-fi-61 {
+	fill: #083139 !important
+}
+
+.color-picker-fi-62 {
+	fill: #003163 !important
+}
+
+.color-picker-fi-63 {
+	fill: #21104A !important
+}
+
+.color-picker-fi-64 {
+	background: #3ACCE1 !important
+}
+
+.color-picker-fi-65 {
+	background: #0CAFD2 !important
+}
+
+.color-picker-fi-66 {
+	background: #10519F !important
+}
+
+.color-picker-fi-67 {
+	background: #002F6C !important
+}
+
+.color-picker-fi-68 {
+	background: #F58233 !important
+}
+
+.color-picker-fi-69 {
+	background: #EF5316 !important
+}
+
+.color-picker-fi-70 {
+	background: #E84459 !important
+}
+
+.color-picker-fi-71 {
+	background: #BE2E2E !important
+}
+
+.color-picker-fi-72 {
+	background: #E9AF0F !important
+}
+
+.color-picker-fi-73 {
+	background: #FFCC00 !important
+}
+
+.color-picker-fi-74 {
+	background: #2C7A30 !important
+}
+
+.color-picker-fi-75 {
+	background: #01BB0C !important
+}
+
+.color-picker-fi-76 {
+	background: #C9C9C9 !important
+}
+
+.color-picker-fi-77 {
+	background: #4D4F5C !important
+}
+
+.color-picker-fi-78 {
+	background: #5756CE !important
+}
+
+.color-picker-fi-79 {
+	background: #132F53 !important
+}
+
+.color-picker-cl-1:before {
+	background: #000000 !important
+}
+
+.color-picker-cl-2:before {
+	background: #424242 !important
+}
+
+.color-picker-cl-3:before {
+	background: #636363 !important
+}
+
+.color-picker-cl-4:before {
+	background: #9C9C94 !important
+}
+
+.color-picker-cl-5:before {
+	background: #CEC6CE !important
+}
+
+.color-picker-cl-6:before {
+	background: #EFEFEF !important
+}
+
+.color-picker-cl-7:before {
+	background: #F7F7F7 !important
+}
+
+.color-picker-cl-8:before {
+	background: #FFFFFF !important
+}
+
+.color-picker-cl-9:before {
+	background: #FF0000 !important
+}
+
+.color-picker-cl-10:before {
+	background: #FF9C00 !important
+}
+
+.color-picker-cl-11:before {
+	background: #FFFF00 !important
+}
+
+.color-picker-cl-12:before {
+	background: #00FF00 !important
+}
+
+.color-picker-cl-13:before {
+	background: #00FFFF !important
+}
+
+.color-picker-cl-14:before {
+	background: #0000FF !important
+}
+
+.color-picker-cl-15:before {
+	background: #9C00FF !important
+}
+
+.color-picker-cl-16:before {
+	background: #FF00FF !important
+}
+
+.color-picker-cl-17:before {
+	background: #F7C6CE !important
+}
+
+.color-picker-cl-18:before {
+	background: #FFE7CE !important
+}
+
+.color-picker-cl-19:before {
+	background: #FFEFC6 !important
+}
+
+.color-picker-cl-20:before {
+	background: #D6EFD6 !important
+}
+
+.color-picker-cl-21:before {
+	background: #CEDEE7 !important
+}
+
+.color-picker-cl-22:before {
+	background: #CEE7F7 !important
+}
+
+.color-picker-cl-23:before {
+	background: #D6D6E7 !important
+}
+
+.color-picker-cl-24:before {
+	background: #E7D6DE !important
+}
+
+.color-picker-cl-25:before {
+	background: #E79C9C !important
+}
+
+.color-picker-cl-26:before {
+	background: #FFC69C !important
+}
+
+.color-picker-cl-27:before {
+	background: #FFE79C !important
+}
+
+.color-picker-cl-28:before {
+	background: #B5D6A5 !important
+}
+
+.color-picker-cl-29:before {
+	background: #A5C6CE !important
+}
+
+.color-picker-cl-30:before {
+	background: #9CC6EF !important
+}
+
+.color-picker-cl-31:before {
+	background: #B5A5D6 !important
+}
+
+.color-picker-cl-32:before {
+	background: #D6A5BD !important
+}
+
+.color-picker-cl-33:before {
+	background: #E76363 !important
+}
+
+.color-picker-cl-34:before {
+	background: #F7AD6B !important
+}
+
+.color-picker-cl-35:before {
+	background: #FFD663 !important
+}
+
+.color-picker-cl-36:before {
+	background: #94BD7B !important
+}
+
+.color-picker-cl-37:before {
+	background: #73A5AD !important
+}
+
+.color-picker-cl-38:before {
+	background: #6BADDE !important
+}
+
+.color-picker-cl-39:before {
+	background: #8C7BC6 !important
+}
+
+.color-picker-cl-40:before {
+	background: #C67BA5 !important
+}
+
+.color-picker-cl-41:before {
+	background: #CE0000 !important
+}
+
+.color-picker-cl-42:before {
+	background: #E79439 !important
+}
+
+.color-picker-cl-43:before {
+	background: #EFC631 !important
+}
+
+.color-picker-cl-44:before {
+	background: #6BA54A !important
+}
+
+.color-picker-cl-45:before {
+	background: #4A7B8C !important
+}
+
+.color-picker-cl-46:before {
+	background: #3984C6 !important
+}
+
+.color-picker-cl-47:before {
+	background: #634AA5 !important
+}
+
+.color-picker-cl-48:before {
+	background: #A54A7B !important
+}
+
+.color-picker-cl-49:before {
+	background: #9C0000 !important
+}
+
+.color-picker-cl-50:before {
+	background: #B56308 !important
+}
+
+.color-picker-cl-51:before {
+	background: #BD9400 !important
+}
+
+.color-picker-cl-52:before {
+	background: #397B21 !important
+}
+
+.color-picker-cl-53:before {
+	background: #104A5A !important
+}
+
+.color-picker-cl-54:before {
+	background: #085294 !important
+}
+
+.color-picker-cl-55:before {
+	background: #311873 !important
+}
+
+.color-picker-cl-56:before {
+	background: #731842 !important
+}
+
+.color-picker-cl-57:before {
+	background: #630000 !important
+}
+
+.color-picker-cl-58:before {
+	background: #7B3900 !important
+}
+
+.color-picker-cl-59:before {
+	background: #846300 !important
+}
+
+.color-picker-cl-60:before {
+	background: #295218 !important
+}
+
+.color-picker-cl-61:before {
+	background: #083139 !important
+}
+
+.color-picker-cl-62:before {
+	background: #003163 !important
+}
+
+.color-picker-cl-63:before {
+	background: #21104A !important
+}
+
+.color-picker-cl-64 {
+	background: #3ACCE1 !important
+}
+
+.color-picker-cl-65 {
+	background: #0CAFD2 !important
+}
+
+.color-picker-cl-66 {
+	background: #10519F !important
+}
+
+.color-picker-cl-67 {
+	background: #002F6C !important
+}
+
+.color-picker-cl-68 {
+	background: #F58233 !important
+}
+
+.color-picker-cl-69 {
+	background: #EF5316 !important
+}
+
+.color-picker-cl-70 {
+	background: #E84459 !important
+}
+
+.color-picker-cl-71 {
+	background: #BE2E2E !important
+}
+
+.color-picker-cl-72 {
+	background: #E9AF0F !important
+}
+
+.color-picker-cl-73 {
+	background: #FFCC00 !important
+}
+
+.color-picker-cl-74 {
+	background: #2C7A30 !important
+}
+
+.color-picker-cl-75 {
+	background: #01BB0C !important
+}
+
+.color-picker-cl-76 {
+	background: #C9C9C9 !important
+}
+
+.color-picker-cl-77 {
+	background: #4D4F5C !important
+}
+
+.color-picker-cl-78 {
+	background: #5756CE !important
+}
+
+.color-picker-cl-79 {
+	background: #132F53 !important
+}

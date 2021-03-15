@@ -1,0 +1,16 @@
+{
+	"page_not_exist": "Trang không tồn tại",
+	"of": "Của",
+	"display_result_number": "Hiển thị ${{value}} kết quả/trang",
+	"page_not_exist_txt": "Rất xin lỗi vì sự bất tiện này nhưng trang bạn yêu cầu hiện không tồn tại. Xin vui lòng kiểm tra lại đường dẫn",
+	"go_to_home": "Đi đến trang chủ",
+	"no_data": "Không có dữ liệu",
+	"no_orders_found": "Không tìm thấy đơn hàng",
+	"no_tasks_found": "Không tìm thấy công việc",
+	"no_customers_found": "Không tìm thấy khách hàng",
+	"no_products_found": "Không tìm thấy sản phẩm",
+	"no_funds_found": "Không tìm thấy quỹ",
+	"ooops": "Ooops!",
+	"txt_ooops": "Bạn có được phân quyền để làm tác vụ này không ? Hãy kiểm tra lại Quyền của bạn nhé!",
+	"required": "Bắt buộc"
+}

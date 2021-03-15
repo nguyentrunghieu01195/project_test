@@ -1,0 +1,21 @@
+/**
+ * @description 
+ * @since Monday, 3 1st 2021, 16:28:19 pm
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+ .breadcrumb {
+	background-color: #FFF !important;
+}
+
+.breadcrumb-item a {
+	color: #10519F !important;
+}
+
+.breadcrumb-item.active {
+	color: #6c757d;
+}

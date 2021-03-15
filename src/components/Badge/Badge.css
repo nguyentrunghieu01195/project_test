@@ -1,0 +1,24 @@
+/**
+ * @description 
+ * @since Friday, 3 5th 2021, 14:26:17 pm
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+ .badge {
+	font-weight: lighter;
+	border-radius: 10px;
+}
+
+ .noti-relation {
+	position: absolute !important;
+	top: -10px !important;
+	right: -10px;
+	border-radius: 10px !important;
+	font-size: 12px !important;
+	font-weight: lighter !important;
+	color: #FFF;
+	z-index: 9;
+}

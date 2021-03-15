@@ -1,0 +1,39 @@
+/**
+ * @description 
+ * @since Wednesday, 3 3rd 2021, 17:09:21 pm
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+ .nav-tabs {
+	border-bottom: 1px solid #F36A26 !important;
+}
+
+.nav-tabs.nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	border-bottom: 2px solid #F36A26 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	border: none;
+}
+
+.nav-tabs .nav-link {
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.nav-item a {
+	color: #10519F;
+}
+
+.nav-item a.dropdown-item.active {
+	color: #fff;
+}
+
+.gf-tab .active, .gf-tab .nav-link:hover {
+	border-bottom: 2px solid #f58233!important;
+	border: none;
+}

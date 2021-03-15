@@ -1,0 +1,16 @@
+{
+	"page_not_exist": "The page does not exist",
+	"of": "Of",
+	"display_result_number": "${{value}} items per page",
+	"page_not_exist_txt": "Sorry for this inconvenience, but the page you requested does not exist. Please check the link",
+	"go_to_home": "Go to the homepage",
+	"no_data": "No data",
+	"no_orders_found": "No orders found",
+	"no_tasks_found": "No tasks found",
+	"no_customers_found": "No customers found",
+	"no_products_found": "No products found",
+	"no_funds_found": "No funds found",
+	"ooops": "Ooops!",
+	"txt_ooops": "Are you authorized to do this task? Please check your rights!",
+	"required": "Obligatory"
+}

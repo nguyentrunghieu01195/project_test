@@ -1,0 +1,57 @@
+/**
+ * @description   
+ * @since         Wednesday, 3 10th 2021, 16:54:26 pm
+ * @author        Tú Trần <tutv@getflycrm.com>
+ * @copyright     Copyright (c) 2021, Getfly VN TECH.,JSC, Inc.
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+.input-focus{
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.input-icon-left{
+  position: absolute;
+  z-index: 2;
+  left: 10px;
+  text-align: center;
+  padding: 10px 0;
+  top: 0px;
+  margin-bottom: 0px;
+  bottom: 0px;
+  color: #808080;
+}
+.input-icon-right{
+  position: absolute;
+  z-index: 2;
+  right: 10px;
+  text-align: center;
+  padding: 10px 0;
+  top: 0px;
+  margin-bottom: 0px;
+  bottom: 0px;
+  color: #808080;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+p {
+  margin-bottom: 5px !important;
+}
+
+.pr30{
+  padding-right: 30px !important;
+}
+.color-danger{
+  color: #DC3545 !important;
+}
+.color-success{
+  color: #198754 !important;
+}

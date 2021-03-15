@@ -1,0 +1,57 @@
+/**
+ * @description 
+ * @since Thursday, 3 4th 2021, 11:37:07 am
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+.checkbox{
+	position: relative;
+}
+
+.checkbox input {
+	display: none;
+}
+
+.checkboxContainer {
+	display: inline-block;
+	padding-left: 25px;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+}
+
+.checkbox input:checked + .check-mark {
+	background-color: #10519F;
+}
+
+.checkbox .check-mark {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #f4f4f4;
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	border-radius: 3px;
+	border: 1px solid #d0d0d0;
+}
+
+.checkbox input:checked + .check-mark:after {
+	content: "";
+	position: absolute;
+	height: 4px;
+	width: 10px;
+	border-left: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.checkbox input:disabled + .check-mark {
+	opacity: 0.5;
+	background: #b4b4b4;
+}

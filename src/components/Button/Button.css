@@ -1,0 +1,70 @@
+/**
+ * @description 
+ * @since Monday, 3 1st 2021, 15:18:49 pm
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+.btn-color {
+	background: #10519f !important;
+	color: #fff !important;
+	height: 38px;
+}
+
+.btn-color:hover {
+	background: #f36a26 !important;
+	color: #fff !important;
+}
+
+.button-height {
+	height: 48px;
+}
+
+.btn-color-orange {
+	background: #f36a26 !important;
+	color: #fff !important;
+}
+
+.btn-color-outline {
+	border: 1px solid #10519F !important;
+	color: #10519F !important;
+}
+
+.btn-color-outline-orange {
+	border: 1px solid #f36a26 !important;
+	color: #f36a26 !important;
+}
+
+.btn-color-focus {
+	box-shadow: 0 0 0 0.2rem #e3dbfe;
+}
+
+.btn-add-mqh {
+	height: 38px;
+	border: 1px solid #d0d0d0 !important;
+}
+
+.btn-add-mqh:disabled {
+	border-color: #f8f9fa !important;
+}
+
+.btn-relation {
+	height: 34px!important;
+	padding: .255rem .55rem !important;
+}
+
+.btn-color-outline:hover {
+	border: 1px solid #f36a26 !important;
+	color: #f36a26 !important;
+}
+
+.btn-circle{
+	border-radius: 100% !important;
+	width: 40px !important;
+	height: 40px !important;
+	border: 1px solid #d0d0d0 !important;
+	font-size: 0 !important;
+}

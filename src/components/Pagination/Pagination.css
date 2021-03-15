@@ -1,0 +1,14 @@
+/**
+ * @description 
+ * @since Wednesday, 3 3rd 2021, 8:11:04 am
+ * @author Nguyễn Trung Hiếu <nguyentrunghieu@getflycrm.com>
+ * @copyright Copyright (c) 2021, GETFLY VN TECH.,JSC
+ * -----
+ * Change Log: <press Ctrl + alt + c write chanelog>
+ */
+
+
+.pagination .page-item.disabled .page-link{
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+}
