@@ -12,4 +12,4 @@ import ColorCode, {PropsColorCode} from './ColorCode';
 import ColorClass, {PropsColorClass} from './ColorClass';
 
 export {ColorCode, ColorClass};
-export type {PropsColorCode, PropsColorClass};
+// export type {PropsColorCode, PropsColorClass};

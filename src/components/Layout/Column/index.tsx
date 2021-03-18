@@ -32,8 +32,8 @@ export interface PropsCol {
 class Col extends Component<PropsCol> {
 	render(){
 		const {xl, lg, md, sm, xs, offsetXl, offsetLg, offsetMd, offsetSm, offsetXs, align, order, className, inner, onClick, style} = this.props;
-		let classCol = `${xl ? `col-xl-${xl} ` : ''}${lg ? `col-lg-${lg} ` : ''}${md ? `col-md-${md} ` : ''}${sm ? `col-sm-${sm} ` : ''}${xs ? `col-xs-${xs} ` : ''}`;
-		let classOffset = `${offsetXl ? `offset-xl-${offsetXl} ` : ''}${offsetLg ? `offset-lg-${offsetLg} ` : ''}${offsetMd ? `offset-md-${offsetMd} ` : ''}${offsetSm ? `offset-sm-${offsetSm} ` : ''}${offsetXs ? `offset-xs-${offsetXs} ` : ''}`;
+		const classCol = `${xl ? `col-xl-${xl} ` : ''}${lg ? `col-lg-${lg} ` : ''}${md ? `col-md-${md} ` : ''}${sm ? `col-sm-${sm} ` : ''}${xs ? `col-xs-${xs} ` : ''}`;
+		const classOffset = `${offsetXl ? `offset-xl-${offsetXl} ` : ''}${offsetLg ? `offset-lg-${offsetLg} ` : ''}${offsetMd ? `offset-md-${offsetMd} ` : ''}${offsetSm ? `offset-sm-${offsetSm} ` : ''}${offsetXs ? `offset-xs-${offsetXs} ` : ''}`;
 		
 		
 		return (

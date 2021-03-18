@@ -25,7 +25,7 @@ interface Data {
 
 export interface PropsBreadcrumb {
 	data: Data
-};
+}
 
 class Breadcrumb extends Component<PropsBreadcrumb>{
 	render(){

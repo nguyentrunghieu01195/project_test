@@ -10,13 +10,6 @@
 
 import React, { Component } from 'react';
 import {Translate} from '../../utils/NlsHelper';
-// import IMG_NO_DATA from './image/empty_data.png';
-// import IMG_NO_ORDER from './image/empty_order.png';
-// import IMG_NO_TASK from './image/empty_task.png';
-// import IMG_NO_CUSTOMER from './image/empty_customer.png';
-// import IMG_NO_VOUCHER from './image/empty_voucher.png';
-// import IMG_NO_PRODUCT from './image/empty_product.png';
-// import IMG_NO_FUND from './image/empty_fund.png';
 import Row from '../Layout/Row';
 import Col from '../Layout/Column';
 
@@ -24,7 +17,7 @@ export interface PropsEmptyState {
 	type?: 'data' | 'order' | 'task' | 'customer' | 'voucher' | 'product' | 'fund',
 	locale?: 'vi' | 'en' | 'thai',
 	text?: string
-};
+}
 
 class EmptyState extends Component<PropsEmptyState>{
 	renderEmptyState(img: string, text: string){
@@ -41,9 +34,9 @@ class EmptyState extends Component<PropsEmptyState>{
 	render(){
 		const {type, locale, text} = this.props;
 		
-		let translate = new Translate();
+		const translate = new Translate();
 		translate.setLocale(locale ? locale : 'vi');
-		let t = translate.getTranslate;
+		const t = translate.getTranslate;
 
 		switch(type){
 			case 'data':

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /**
  * @description 
  * @since Wednesday, 3 3rd 2021, 14:57:31 pm

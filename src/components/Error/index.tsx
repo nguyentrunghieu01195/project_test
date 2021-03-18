@@ -10,9 +10,6 @@
 
 import React, { Component } from 'react';
 import {Translate} from '../../utils/NlsHelper';
-import IMG_PAGE_NOT_FOUND from './image/empty_404.png';
-import IMG_PAGE_NOT_FOUND_2 from './image/empty_404_2.png';
-import IMG_PAGE_NOT_FOUND_3 from './image/empty_404_3.png';
 import Row from '../Layout/Row';
 import Col from '../Layout/Column';
 import Button from '../Button';
@@ -21,15 +18,15 @@ export interface PropsError {
 	type?: 'not_found' | 'access_denied',
 	locale?: 'vi' | 'en' | 'thai',
 	img_type?: 1 | 2 | 3
-};
+}
 
 class Error extends Component<PropsError>{
 	render(){
 		const {type, locale, img_type} = this.props;
 
-		let translate = new Translate();
+		const translate = new Translate();
 		translate.setLocale(locale ? locale : 'vi');
-		let t = translate.getTranslate;
+		const t = translate.getTranslate;
 
 		let img = '';
 		switch(img_type){

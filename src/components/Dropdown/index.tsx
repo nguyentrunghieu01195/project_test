@@ -17,7 +17,7 @@ export interface PropsDropdown {
 	position?: 'up' | 'right' | 'down' | 'left',
 	text?: string,
 	[propName: string]: any
-};
+}
 
 class Dropdown extends Component<PropsDropdown> {
 	render(){

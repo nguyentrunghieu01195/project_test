@@ -16,7 +16,7 @@ export interface PropsBadge {
 	border?: boolean,
 	value: number,
 	[propsName: string]: any
-};
+}
 
 class Badge extends Component<PropsBadge> {
 	render(){

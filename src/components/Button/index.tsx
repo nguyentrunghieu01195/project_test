@@ -26,7 +26,7 @@ class Button extends Component<PropsButton> {
 
 	render() {
 		const {innerText, type, icon, size, className, disabled, onClick, ...props} = this.props;
-		let class_type = {
+		const class_type = {
 			primary: 'btn-color',
 			'primary-hover': 'btn-color-orange',
 			'primary-focus': 'btn-color btn-color-focus',

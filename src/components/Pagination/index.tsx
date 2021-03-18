@@ -27,7 +27,7 @@ export interface PropsPagination {
 	showTotalRecord?: boolean,
 	isAccount?: boolean,
 	locale?: 'vi' | 'en' | 'thai'
-};
+}
 
 interface StatePagination {
 	page: number,
@@ -37,7 +37,7 @@ interface StatePagination {
 	totalRecord?: number,
 	showPerPage?: boolean,
 	isAccount?: boolean
-};
+}
 
 class Pagination extends Component<PropsPagination, StatePagination> {
 	constructor(props: PropsPagination) {
@@ -105,7 +105,7 @@ class Pagination extends Component<PropsPagination, StatePagination> {
 	}
 
 	_onSetLimit(e: any) {
-		let limit = parseFloat(e.target.value);
+		const limit = parseFloat(e.target.value);
 		this.setState({ limit }, () => this.props.onSetLimit && this.props.onSetLimit(limit));
 	}
 
@@ -114,12 +114,12 @@ class Pagination extends Component<PropsPagination, StatePagination> {
 		const { page, showPerPage, limit, perPage, totalPage, isAccount } = this.state;
 		const isPrev = page === 1 ? true : false;
 		const isNext = page >= totalPage ? true : false;
-		let stly = isAccount ? { height: 34, fontSize: 15 } : {};
+		const stly = isAccount ? { height: 34, fontSize: 15 } : {};
 
-		let translate = new Translate();
+		const translate = new Translate();
 		translate.setLocale(locale ? locale : 'vi');
 		
-		let t = translate.getTranslate;
+		const t = translate.getTranslate;
 		return (
 			<>
 				{(totalPage > 0 && page > 0) ? (page - 1) * limit + 1 : 0} -&nbsp;

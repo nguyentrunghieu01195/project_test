@@ -9,16 +9,13 @@
 
 
 import React, { Component } from 'react';
-import IMAGE_LOADING_1 from './image/loading1.gif';
-import IMAGE_LOADING_2 from './image/loading2.gif';
-import IMAGE_LOADING_3 from './image/loading3.gif';
 import './Loading.css';
 
 export interface PropsLoading {
 	type?: 'logo' | 'dot_spin' | 'line_spin',
 	title?: string,
 	loading?: boolean
-};
+}
 
 class Loading extends Component<PropsLoading>{
 	render(){

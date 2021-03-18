@@ -15,8 +15,8 @@ import Breadcrumb, { PropsBreadcrumb } from './Breadcrumb';
 import Button, { PropsButton } from './Button';
 import ButtonGroup, { PropsButtonGroup } from './ButtonGroup';
 import Checkbox, { PropsCheckbox } from './Checkbox';
-import { ColorCode, PropsColorCode } from './Color';
-import { ColorClass, PropsColorClass } from './Color';
+import { ColorCode } from './Color';
+import { ColorClass } from './Color';
 import Dropdown, { PropsDropdown } from './Dropdown';
 import EmptyState, { PropsEmptyState } from './EmptyState';
 import Error, { PropsError } from './Error';
@@ -41,10 +41,4 @@ export {
 	Alert, Avatar, Badge, Breadcrumb, Button, ButtonGroup, Checkbox, ColorCode, EmptyState, Error, Container,
 	Row, Col, Loading, Nav, TabContent, TabPane, Pagination, Radio, Switch, Dropdown, ColorClass, Typography, Shadow,
 	Input
-};
-
-export type {
-	PropsAlert, PropsAvatar, PropsBadge, PropsBreadcrumb, PropsButton, PropsButtonGroup, PropsCheckbox, PropsColorCode,
-	PropsEmptyState, PropsError, PropsContainer, PropsRow, PropsCol, PropsLoading, PropsNav, PropsPagination,
-	PropsRadio, PropsSwitch, PropsDropdown, PropsColorClass, PropsTypography, PropsShadow, PropsInput
 };

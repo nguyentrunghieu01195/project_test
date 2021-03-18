@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /**
  * @description 
  * @since Monday, 3 1st 2021, 16:14:21 pm
@@ -25,7 +24,7 @@ class GfAlert extends Component<PropsAlert> {
 	render(){
 		const {show, type, title, text, hideIcon, onHide} = this.props;
 
-		let object_type: any = {
+		const object_type: any = {
 			success: {
 				color: '#28a745',
 				icon: 'fa fa-check',

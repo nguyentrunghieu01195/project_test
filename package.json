@@ -1,6 +1,6 @@
 {
   "name": "project_test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Description",
   "scripts": {
     "start": "webpack serve --open",
@@ -51,8 +51,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com:nguyentrunghieu01195/project_test.git"
   },
-  "main": "./build/index.js",
-  "module": "./build/index.es.js",
+  "main": "./src/components/index.tsx",
   "bugs": {
     "url": "https://github.com/nguyentrunghieu01195/project_test/issues"
   },

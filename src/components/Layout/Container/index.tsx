@@ -8,7 +8,7 @@
  */
 
 
-import {Component} from 'react';
+import React, {Component} from 'react';
 
 export interface PropsContainer {
 	className?: string,
